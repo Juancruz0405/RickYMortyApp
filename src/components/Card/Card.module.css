@@ -1,0 +1,59 @@
+.tarjeta {
+  border-style: solid;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: rgb(00, 00, 00, 0.5);
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.carta {
+  display: inline-block;
+  position: relative;
+}
+.nombre {
+  background-color: rgb(233, 46, 226, 0.7);
+  position: absolute;
+  top: 81%;
+  left: 25%;
+  border-radius: 10%;
+  border: 2px solid black;
+  font-family: "Get Schwifty", sans-serif;
+}
+hr {
+  border: none;
+  height: 1.5px;
+  background-color: black;
+  margin-top: -5px;
+}
+.imagen {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.boton {
+  position: absolute;
+  left: 88%;
+  border-radius: 100%;
+  background-color: green;
+}
+.titulos {
+  display: inline;
+  margin-inline: 10px;
+}
+
+.botonCorazon {
+  position: absolute; /* Posición absoluta para superponer el botón */
+  top: -3px; /* Ajusta la distancia desde la parte superior de la tarjeta */
+  right: 255px; /* Ajusta la distancia desde la parte derecha de la tarjeta */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  font-size: 24px; /* Tamaño del botón */
+  cursor: pointer;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /* Agrega un borde al texto */
+}

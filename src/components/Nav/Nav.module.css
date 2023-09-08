@@ -1,0 +1,20 @@
+.botonNav {
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: transform 0.2s;
+  position: relative;
+  top: -46px;
+  left: -19cm;
+}
+#about {
+  border-right: 2px solid black;
+}
+#about2 {
+  border-right: 2px solid black;
+}
+.botonNav:hover {
+  transform: scale(1.1);
+}

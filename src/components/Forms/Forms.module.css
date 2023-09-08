@@ -1,0 +1,41 @@
+.div {
+  display: inline-block;
+  background-color: rgb(00, 00, 00, 0.5);
+  margin-top: 200px;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  min-height: 50vh; /* Altura mínima de la ventana visible */
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #fcfcda;
+  padding: 50px;
+}
+.titulo {
+  color: #fcfcda;
+}
+.inputs {
+  margin-bottom: 13px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white; /* Agrega un borde inferior */
+  padding: 5px 10px; /* Añade relleno (padding) para espaciado */
+  font-size: 16px; /* Tamaño de fuente */
+  outline: none;
+}
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #000; /* Borde sólido de 1px negro */
+  border-radius: 5px;
+  background-color: transparent; /* Fondo transparente */
+  color: #000; /* Color del texto */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.boton:hover {
+  transform: scale(1.1);
+}

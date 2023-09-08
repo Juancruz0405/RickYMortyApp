@@ -1,0 +1,21 @@
+.body {
+  background-color: rgb(00, 00, 00, 0.5);
+  height: 100vh;
+  width: 50%;
+  position: relative;
+}
+.letras {
+  font-size: 30px;
+  color: white;
+  margin-right: 70%;
+  width: 80%;
+  margin-top: -2cm;
+}
+
+.imagen {
+  float: right;
+  width: 500px;
+  margin-right: -700px;
+  margin-top: -250px;
+  border-radius: 50%;
+}

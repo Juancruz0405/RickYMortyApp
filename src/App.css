@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  background: url("C:\Users\jgonz\Documents\PROGRAMACION\SOY HENRY\MODULOS\M2\FT-M2\06-React-Intro\homework\rick_and_morty\src\WPP\wppIMG.png");
+  background-repeat: repeat;
+  background-position: center;
+  box-sizing: border-box;
+  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}

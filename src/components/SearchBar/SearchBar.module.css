@@ -1,0 +1,31 @@
+.contenedor {
+  border: 20px solid rgb(250, 234, 214, 00);
+  background-color: rgb(00, 00, 00, 0.5);
+  border-bottom: 1px solid black;
+}
+
+.boton {
+  background-color: transparent;
+  border: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  transition: transform 0.2s;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+}
+.input {
+  margin-bottom: 13px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white; /* Agrega un borde inferior */
+  padding: 5px 10px; /* Añade relleno (padding) para espaciado */
+  font-size: 16px; /* Tamaño de fuente */
+  outline: none; /* Elimina el borde predeterminado cuando se enfoca */
+}
+
+/* Cambia el color del borde inferior cuando se enfoca el input */
+.input:focus {
+  border-bottom: 2px solid #00f;
+}
